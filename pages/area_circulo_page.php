@@ -35,7 +35,9 @@
                         </div>
 
                         <div class="col-12">
-                            <input type="submit" value="Calcular" name="calcular" class="btn btn-color" />
+                            <div class="row m-1">
+                                <input type="submit" value="Calcular" name="calcular" class="btn btn-color" />
+                            </div>
                         </div>
                     </form>
                 </div>

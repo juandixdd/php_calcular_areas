@@ -23,7 +23,7 @@
                     <div class="row justify-content-center mt-5">
                         <h5 class="col-md-2">Fórmula:</h5>
                         <p class="col-md-4">
-                            <strong>Área del triángulo</strong> = pi * radio * radio
+                            <strong>Área</strong> = pi * radio * radio
                         </p>
                     </div>
 

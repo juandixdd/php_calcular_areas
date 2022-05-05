@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Área triangulo</title>
+  <title>Área Trapecio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link rel="stylesheet" href="../style.css" />
 </head>
@@ -18,21 +18,24 @@
             <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z" />
           </svg> Volver</a>
         <div class="card-body">
-          <h1 class="card-title">Área del triangulo</h1>
+          <h1 class="card-title">Área del Trapecio</h1>
           <hr />
           <div class="row justify-content-center mt-5">
             <h5 class="col-md-2">Fórmula:</h5>
             <p class="col-md-4">
-              <strong>Área</strong> = <strong>Base</strong> *
-              <strong>Altura</strong> / 2
+              <strong>Área</strong> = ((B + b)/ 2) * h
             </p>
           </div>
 
           <!-- form -->
-          <form class="row g-3 mt-5" action="../php/area_triangulo.php" method="POST">
+          <form class="row g-3 mt-5" action="../php/area_trapecio.php" method="POST">
             <div class="col-md-6">
-              <label class="form-label">Base</label>
-              <input type="text" class="form-control" name="base" />
+              <label class="form-label">Base mayor</label>
+              <input type="text" class="form-control" name="base_mayor" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Base menor</label>
+              <input type="text" class="form-control" name="base_menor" />
             </div>
             <div class="col-md-6">
               <label class="form-label">Altura</label>
